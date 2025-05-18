@@ -8,3 +8,24 @@ const carrito = [
     { nombre: 'Teclado', precio: 400 },
     { nombre: 'Celular', precio: 700 },
 ]
+
+//comprobar si un valor existe en un arreglo (.includes)
+meses.forEach( mes => {
+    if(mes === 'Enero'){
+        console.log(`${mes} existe`)
+    }
+})
+
+const resultado = meses.includes('Enero'); //retorna un booleaan, .includes no soporta un arreglo de objetos
+console.log(resultado); //true
+
+
+//en un arreglo de objetos, se utiliza .some
+const existe = carrito.some( producto => {
+    return producto.nombre === 'Celular'
+})
+console.log(existe)
+
+
+//En un arreglo tradicional con .some
+const existe2 = meses.some( mes => mes === 'Febrero');
