@@ -6,6 +6,6 @@ console.log(JSON.parse(productoJson));
 
 
 const meses = localStorage.getItem('meses');
-console.log(JSON.parse(meses));
+console.log(JSON.parse(meses)); //JSON. parse para convertir de JSON a un arreglo de JS
 
 

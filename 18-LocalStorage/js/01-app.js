@@ -12,7 +12,7 @@ localStorage.setItem('producto', productostring);
 
 const meses = ['enero', 'febrero', 'marzo'];
 //creando variable
-const mesesstring = JSON.stringify(meses);
+const mesesstring = JSON.stringify(meses); //JSON.stringify para convertir de un arreglo de JS a JSON
 localStorage.setItem('meses', mesesstring);
 
 //almacennado desde el array sin crear variable

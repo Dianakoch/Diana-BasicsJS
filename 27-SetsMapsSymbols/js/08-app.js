@@ -31,7 +31,7 @@ for (let keys of datos.keys()) {
     console.log(keys);
 }
 
-//values iterador que devuelve SOLO los valores de cada uno de los sets y maps
+//values iterador que devuelve SOLO los VALORES de cada uno de los sets y maps
 for(let value of ciudades.values()) {
     console.log(value);
 }
